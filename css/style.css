@@ -1,0 +1,132 @@
+body{
+	font-family: Arial, San-Serif;
+	font-size: 100%;
+	background-color: #ac91ea;
+}
+page{
+	overflow= hidden;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+ul li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none:
+}
+header{
+	padding: 50px 0;
+	background-color: #f4a8d1;
+}
+h1,h2{
+	color: #0a0a0a;
+	text-align: center;
+}
+nav{
+    background-color: #dfc2fc;
+	border-color: #c675ef;
+	min-height: 64px;
+}
+nav li{
+	float: left;
+	width: 100px;
+}
+nav a{
+	display: block;
+	color: #0a0a0a;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+nav li a:hover{
+	color: #0a0a0a;
+    background-color: #282828;
+}
+form{
+	padding: 15px 0;
+	float: right;
+}
+.one{
+	height: 300px;
+	width: 300px;
+	background: #282828;
+	transition-duration: .5s;
+	transform: rotate(0);
+}
+.two{
+	width: 100px;
+	height: 100px;
+	background: grey;
+}
+.one:hover{
+	transform: rotate(90deg);
+	transition-duration: 1s;
+	background: blue;
+	border-radius: 50%;
+}
+.square{
+	width: 90px;
+	height: 90px;
+	margin: 30px auto;
+	background-color: #123456;
+	animation-name: spin;
+	animation-duration: 4s;
+	animation-timing-fuction: linear;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+@keyframes spin{
+	0%{transform: rotate(0deg);}
+	25%{background-color: yellow;}
+	100%{transform: rotate(360deg);}
+}
+p{
+	font-size: 16px;
+	line-height: 1.3;
+	color: #0a0a0a;
+}
+img{
+	width: 420px;
+	height: 300px;
+	border-style: solid;
+	float: left;
+	margin-left: 200px;
+	margin-top: 4px;
+}
+art1{width: 420px;
+height: 300px;
+}
+img1{
+	width: 420px;
+	height: 300px;
+	border-style: solid;
+	float: left;
+	margin-left: 200px;
+	margin-top: 4px;
+}
+art2{
+	width: 420px;
+height: 300px;
+}
+multimedia{
+	overflow: auto;
+}
+multimedia-video{
+	display: inline-block;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 720px;
+	height: 520px;
+}
+footer{
+	background-color: #c29cfc;
+	color: #0a0a0a;
+	padding: 20px 0;
+	margin-top: 430px;
+}
